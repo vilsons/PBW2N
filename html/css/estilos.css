@@ -1,0 +1,59 @@
+<style>
+body{
+    font: 14x/21px "Times New Roman", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    background-color: #eee;
+}
+
+form{
+    background-color: rgb(182, 178, 178);
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px #aaa;
+    border: 3px solid #f1f1f1;
+    font-family: Georgia, Times, "Times New", serif;
+    width: 70%;
+    padding: 10px;
+    padding: 10px;
+   }
+
+h2{
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+form img{
+    height: 70px;
+    margin: 10px auto;
+}
+form section{
+    text-align: center;
+}
+form label{
+    text-align: right;
+    margin-top: 10px;
+}
+form input{
+    height: 20px;
+    width: 97%;
+    display: block;
+    margin: 0px;
+    text-align: left;
+    padding: 5px 5px;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 15px;
+    padding-right: 1%;
+}
+form button{
+    border: 0;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    color: #fff;
+    background-color: #007fff;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+</style>
