@@ -10,11 +10,11 @@ form{
     box-shadow: 5px 5px 15px #aaa;
     border: 3px solid #f1f1f1;
     font-family: Georgia, Times, "Times New", serif;
-    width: 70%;
+    width: 500px;
     padding: 10px;
     padding: 10px;
-   }
-
+   } 
+   
 h2{
   margin: 10px auto;
   text-align: center;
@@ -67,6 +67,10 @@ input[type="submit"]{
     box-shadow: 0 10px;
     cursor: pointer;
 }
-button:hover{
+.button:hover{
     color: brown;
+}
+
+.active{
+    background-color: aqua;
 }
