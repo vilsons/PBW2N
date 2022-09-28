@@ -1,6 +1,6 @@
 
 body{
-    font: 14x/21px "Times New Roman", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font: 15x/21px "Times New Roman", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
     background-color: #eee;
 }
 
@@ -56,7 +56,7 @@ form button{
 
 }
 
-.button{
+input[type="submit"]{
     border: name;
     border-radius: 15px;
     padding: 15px 25px;
@@ -66,4 +66,7 @@ form button{
     font-size: 25px;
     box-shadow: 0 10px;
     cursor: pointer;
+}
+button:hover{
+    color: brown;
 }
