@@ -1,76 +1,53 @@
 
-body{
-    font: 15x/21px "Times New Roman", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-    background-color: #eee;
-}
-
 form{
-    background-color: rgb(182, 178, 178);
-    margin: 20px auto;
-    box-shadow: 5px 5px 15px #aaa;
-    border: 3px solid #f1f1f1;
-    font-family: Georgia, Times, "Times New", serif;
-    width: 500px;
-    padding: 10px;
-    padding: 10px;
-   } 
-   
-h2{
-  margin: 10px auto;
+  margin: 0 auto;
+  width: 500px;
+
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
   text-align: center;
-  padding: 10px;
+}
+h1,h2{
+  text-align: center;
+}
+h2{
+  background-color: rgba(164, 199, 219, 0.425);
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100;
 }
 
-form img{
-    height: 70px;
-    margin: 10px auto;
-}
-form section{
-    text-align: center;
-}
-form label{
-    text-align: right;
-    margin-top: 10px;
-}
-form input{
-    height: 20px;
-    width: 97%;
-    display: block;
-    margin: 0px;
-    text-align: left;
-    padding: 5px 5px;
-    border: 1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-    border-radius: 15px;
-    padding-right: 1%;
-}
-form button{
-    border: 0;
-    display: block;
-    margin: 10px auto;
-    width: 50%;
-    color: #fff;
-    background-color: #007fff;
-    height: 30px;
-    border-radius: 10px;
-
+li{
+  float: left;
 }
 
-input[type="submit"]{
-    border: name;
-    border-radius: 15px;
-    padding: 15px 25px;
-    outline: name;
-    background-color: #aaa;
-    color: #eee;
-    font-size: 25px;
-    box-shadow: 0 10px;
-    cursor: pointer;
-}
-.hover{
-    color: brown;
+li a{
+  display: block;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.active{
-    background-color: aqua;
+li a:hover{
+  color: #fff;
+  background-color: #4caf50;
+}
+
+article{
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+.active {
+  background-color: #4caf50;
 }
