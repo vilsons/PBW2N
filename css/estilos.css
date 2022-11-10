@@ -1,3 +1,76 @@
+/* *{margin: 0; padding: 0;} */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+#navegacao-principal{
+				position: relative;
+				font-family: monospace;
+				float: left;
+				width: 100%;
+  
+}
+
+#menu-principal{
+				list-style: none;
+				padding-left: 0;
+}
+
+			#menu-principal li{
+				background-color: #333;
+				display: block;
+				float: left;
+				padding: 1rem;
+				position: relative;
+				text-decoration: none;
+				transition-duration: 0,5s;
+			}
+
+			#menu-principal li a{
+				color: #ccc;
+				text-decoration: none;
+				
+			}
+
+			.dropdown{
+				visibility: hidden;
+				opacity: 0;
+				min-width: 5rem;
+				position: absolute;
+				transition: all 0.5s ease;
+				margin-top: 1rem;
+				left: 0;
+				display: none;
+				box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			}
+			.dropdown{
+				clear: both;
+				width: 100;
+			}
+			#menu-principal li:hover,
+			#menu-principal li:focus-within{
+				background-color: #4caf50;
+				cursor: pointer;
+				font-weight: bold;
+				transition: 0.3s;
+			}
+
+			#menu-principal a:hover{
+				color: #4caf;
+			}
+			
+/*Controla a exibição do dropdown*/
+	#menu-principal li:hover>ul,
+	#menu-principal li:focus-within>ul,
+	.dropdown ul:hover,
+	.dropdown ul:focus{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+} 
+
 
 form{
   margin: 0 auto;
@@ -8,18 +81,20 @@ form{
   border-radius: 1em;
   text-align: center;
 }
-h1,h2{
+
+.h1,h2{
   text-align: center;
 }
 h2{
   background-color: rgba(164, 199, 219, 0.425);
 }
+/*
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #388;
   position: fixed;
   top: 0;
   width: 100;
@@ -31,7 +106,7 @@ li{
 
 li a{
   display: block;
-  color: rgb(190, 190, 190);
+  color: rgb(190, 190, 187);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,7 +114,7 @@ li a{
 
 li a:hover{
   color: #fff;
-  background-color: #4caf50;
+  background-color: #4c87af;
 }
 
 article{
