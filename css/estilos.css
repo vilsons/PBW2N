@@ -71,6 +71,56 @@ body{
 	display: block;
 } 
 
+			/*Ajustar o conteudo para Smartphones*/
+			@media screen and (max-width:480px) {
+				body {
+					max-width: 480px;
+					font-size: 1.0em;
+
+				}
+
+				#menu-principal{
+				width: auto;
+				height: auto;
+				background-color: rgb(204, 60, 60);
+				}
+
+				#menu-principal li{
+					background-color: tomato;
+					text-decoration: none;
+					width: 100;
+					float: none;
+				}
+
+				#menu-principal li {
+					color: #fff;
+					text-align: left;
+					display: block;
+					outline: none;
+				}
+
+				/*Controla a exibição do dropdown*/
+				#menu-principal li:hover>ul,
+				#menu-principal li:focus-within>ul,
+				#menu-principal li a:hover{
+					cursor: pointer;
+					font-weight: bold;
+					color: #f00;
+					background-color: rgb(230, 140, 140);
+					transition: 0.3s;
+					left: 10px;
+				}
+
+				.dropdown{
+				position: static;
+				left: 0px;
+				background-color:rgb(204, 60, 60) ;
+				list-style: none;
+				}
+			}
+			.container{
+				display: flex; /*ou inline-flex*/
+
 
 form{
   margin: 0 auto;
