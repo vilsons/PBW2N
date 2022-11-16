@@ -120,12 +120,11 @@ body{
 			}
 			.container{
 				display: flex; /*ou inline-flex*/
-
+			}
 
 form{
-  margin: 0 auto;
+  margin:0 auto;
   width: 500px;
-
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
